@@ -1,0 +1,34 @@
+
+
+
+.num {
+    /* animation: glow infinite 4s linear; */
+    color: #fff;
+    text-align: center;
+    animation: glow 2s ease-in-out infinite alternate;
+    padding: .5rem;
+
+    margin: 0;
+}
+
+
+@keyframes glow {
+  from {
+    text-shadow: 
+        0 0 10px #fff, 
+        0 0 20px #fff, 
+ 
+
+  }
+  
+  to {
+    text-shadow: 
+        0 0 20px #fff,
+        0 0 25px #fff;
+        /* 0 0 40px #fff, 
+        0 0 50px #fff; */
+        /* 0 0 60px #fff,  */
+        /* 0 0 70px #fff;  */
+        /* 0 0 80px #fff; */
+  }
+}

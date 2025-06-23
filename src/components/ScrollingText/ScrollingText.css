@@ -9,8 +9,11 @@
   
   
   @keyframes Test1 {
-    0% { transform:  translateX(100vw); }
-    100% { transform:  translateX(-200vw); }
+    0% { transform:  translateX(100vw); opacity: 0;}
+    5% {opacity: 0%;}
+    15% {opacity: 100%;}
+    55%{opacity: 0%}
+    100% { transform:  translateX(-200vw); opacity: 0;}
   }
   
   @keyframes Test2 {

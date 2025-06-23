@@ -58,3 +58,10 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.numberRow {
+  display: flex;
+}

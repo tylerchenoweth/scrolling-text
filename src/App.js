@@ -4,6 +4,7 @@ import './App.css';
 import {ReactComponent as Brain} from './assets/brain.svg';
 
 import ScrollingText from './components/ScrollingText/ScrollingText';
+import Number from './components/Number/Number';
 
 function App() {
   return (
@@ -11,8 +12,95 @@ function App() {
       <header className="App-header">
         <Brain className="App-logo" />
         
-   
-
+        <div className="numberRow" >
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+        </div>
+        <div className="numberRow" >
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+        </div>
+        <div className="numberRow" >
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+        </div>
+        <div className="numberRow" >
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+          <Number />
+        </div>
+        
         
         <ScrollingText 
           text={"\\( \\rho \\left( \\frac{\\partial \\mathbf{u}}{\\partial t} + \\mathbf{u} \\cdot \\nabla \\mathbf{u} \\right) = -\\nabla p + \\mu \\nabla^2 \\mathbf{u} + \\mathbf{f} \\)"} 

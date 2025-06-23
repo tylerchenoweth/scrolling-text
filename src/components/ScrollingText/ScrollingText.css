@@ -1,0 +1,19 @@
+.scrollTest1 {
+    color:yellow;
+    animation: Test1 infinite 4s linear;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  
+  
+  
+  @keyframes Test1 {
+    0% { transform:  translateX(100vw); }
+    100% { transform:  translateX(-200vw); }
+  }
+  
+  @keyframes Test2 {
+    0% { transform:  translateX(120vw); }
+    100% { transform:  translateX(-200%); }
+  }

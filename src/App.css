@@ -38,7 +38,7 @@
 
 @keyframes Test1 {
   0% { transform:  translateX(100vw); }
-  100% { transform:  translateX(-200vw); }
+  100% { transform:  translateX(-100vw); }
 }
 
 @keyframes Test2 {
